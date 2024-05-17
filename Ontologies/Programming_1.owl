@@ -1,0 +1,932 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/badger_vaio/ontologies/2014/8/Programming_1"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/badger_vaio/ontologies/2014/8/Programming_1">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Algorithm_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Application_Concept_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Arithmetic_Expressions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Array_Element_Access_Expressions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Array_List_Model"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Arrays"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Assembly_Language"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Assignment_Expressions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Assignment_Statements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BlueJ_Debugging_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BlueJ_IDE_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boolean"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Call_By_Reference_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Call_By_Value_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Call_Statements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Catching_Program_Exceptions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Class_Identifiers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Classes_as_Types_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Compiler_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Computer_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Conditional_Expressions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Constant_Identifiers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Control_Structure_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Control_Structures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coordinate_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data_Hiding_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data_Type_Memory_Allocation_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data_Types"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Debugging_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Declaration_Statements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Decomposition_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Development_Tool_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Documentation_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eclipse_Debugging_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eclipse_IDE_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Encapsulation_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Encryption_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Event_Driven_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Execution_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Expressions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#File_IO_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Floating_Point"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#For_Loop_Structure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Function_Identifiers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Graphic_Command_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Graphics_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hardware_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HashMap_Access_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Historical_Background_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Identifiers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#If_Structure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Immediate_Command_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#In-Line_Comments"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Indentation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Inheritance_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Initialisation_Statements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Input_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Instance_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Integer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interpreter_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Iteration_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JAR_Program_Packaging"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JUnit_Testing_Model"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JavaDoc_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Java_Language"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Java_Libraries"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Karel_the_Robot_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Keyboard_Input_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Language_Syntax_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Language_Type_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Local_Variable_Types"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Logical_Expressions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Loop_Structure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Member_Access_Expressions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mental_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Method_Identifiers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Method_Invocation_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Module_Level_Types"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Multi_Dimensional_Arrays"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nesting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Object_Method_Contracts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Object_Orientated_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Objects_as_Variables_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#One_Dimensional_Arrays"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Operator_Precedence_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Output_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Parenthesised_Expressions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pointer_Types"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostFix_PreFix_Expressions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Precedence_Rule_Expressions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Primitive_Types"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Printing_Command_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Private_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Procedural_Programming_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Program_Exceptions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Program_State_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Program_Statements_as_Commands_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Programming_as_a_Process_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Public_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quality_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Recursion_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reference_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reference_Types"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Relational_Expressions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Return_Statements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Searching_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Semi_Interpreted_Language_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Software_Engineering_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Software_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Software_Requirements_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sorting_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Statements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stored_Program_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#String_Expressions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Switch_Case_Structure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Testing_Model"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Text_Identifiers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Throwing_Program_Exceptions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Type_Conversion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UniCode_Types"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Variable_Identifiers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Variable_Initialisation_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Variable_Scope_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Void_Return_Types"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#While_Loop_Structure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Window_GUI_Models"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Algorithm_Models"/>
+        <Class IRI="#Mental_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Application_Concept_Models"/>
+        <Class IRI="#Mental_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Arithmetic_Expressions"/>
+        <Class IRI="#Expressions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Array_Element_Access_Expressions"/>
+        <Class IRI="#Expressions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Array_List_Model"/>
+        <Class IRI="#Arrays"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Arrays"/>
+        <Class IRI="#Variable_Identifiers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assembly_Language"/>
+        <Class IRI="#Language_Type_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assignment_Expressions"/>
+        <Class IRI="#Expressions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assignment_Statements"/>
+        <Class IRI="#Statements"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BlueJ_Debugging_Models"/>
+        <Class IRI="#Debugging_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BlueJ_IDE_Models"/>
+        <Class IRI="#Development_Tool_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boolean"/>
+        <Class IRI="#Variable_Identifiers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Call_By_Reference_Models"/>
+        <Class IRI="#Object_Orientated_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Call_By_Value_Models"/>
+        <Class IRI="#Object_Orientated_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Call_Statements"/>
+        <Class IRI="#Statements"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Catching_Program_Exceptions"/>
+        <Class IRI="#Program_Exceptions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Class_Identifiers"/>
+        <Class IRI="#Identifiers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Classes_as_Types_Models"/>
+        <Class IRI="#Object_Orientated_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Compiler_Models"/>
+        <Class IRI="#Execution_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Computer_Models"/>
+        <Class IRI="#Hardware_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Conditional_Expressions"/>
+        <Class IRI="#Expressions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Constant_Identifiers"/>
+        <Class IRI="#Identifiers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Control_Structure_Models"/>
+        <Class IRI="#Language_Syntax_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Control_Structures"/>
+        <Class IRI="#Control_Structure_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coordinate_Models"/>
+        <Class IRI="#Graphics_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Data_Hiding_Models"/>
+        <Class IRI="#Object_Orientated_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Data_Models"/>
+        <Class IRI="#Mental_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Data_Type_Memory_Allocation_Models"/>
+        <Class IRI="#Data_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Data_Types"/>
+        <Class IRI="#Data_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Debugging_Models"/>
+        <Class IRI="#Procedural_Programming_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Declaration_Statements"/>
+        <Class IRI="#Statements"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Decomposition_Models"/>
+        <Class IRI="#Procedural_Programming_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Development_Tool_Models"/>
+        <Class IRI="#Mental_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Documentation_Models"/>
+        <Class IRI="#Mental_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eclipse_Debugging_Models"/>
+        <Class IRI="#Debugging_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eclipse_IDE_Models"/>
+        <Class IRI="#Development_Tool_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Encapsulation_Models"/>
+        <Class IRI="#Object_Orientated_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Encryption_Models"/>
+        <Class IRI="#Application_Concept_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Event_Driven_Models"/>
+        <Class IRI="#Procedural_Programming_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Execution_Models"/>
+        <Class IRI="#Mental_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Expressions"/>
+        <Class IRI="#Language_Syntax_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#File_IO_Models"/>
+        <Class IRI="#Mental_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Floating_Point"/>
+        <Class IRI="#Variable_Identifiers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#For_Loop_Structure"/>
+        <Class IRI="#Loop_Structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Function_Identifiers"/>
+        <Class IRI="#Identifiers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Graphic_Command_Models"/>
+        <Class IRI="#Graphics_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Graphics_Models"/>
+        <Class IRI="#Mental_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hardware_Models"/>
+        <Class IRI="#Mental_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HashMap_Access_Models"/>
+        <Class IRI="#Arrays"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Historical_Background_Models"/>
+        <Class IRI="#Hardware_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Identifiers"/>
+        <Class IRI="#Data_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#If_Structure"/>
+        <Class IRI="#Control_Structure_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Immediate_Command_Models"/>
+        <Class IRI="#Procedural_Programming_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#In-Line_Comments"/>
+        <Class IRI="#Documentation_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Indentation"/>
+        <Class IRI="#Language_Syntax_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inheritance_Models"/>
+        <Class IRI="#Object_Orientated_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Initialisation_Statements"/>
+        <Class IRI="#Statements"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Input_Models"/>
+        <Class IRI="#Mental_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Instance_Models"/>
+        <Class IRI="#Object_Orientated_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Integer"/>
+        <Class IRI="#Variable_Identifiers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interpreter_Models"/>
+        <Class IRI="#Execution_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iteration_Models"/>
+        <Class IRI="#Procedural_Programming_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JAR_Program_Packaging"/>
+        <Class IRI="#Java_Language"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JUnit_Testing_Model"/>
+        <Class IRI="#Testing_Model"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JavaDoc_Models"/>
+        <Class IRI="#Documentation_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Java_Language"/>
+        <Class IRI="#Language_Type_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Java_Libraries"/>
+        <Class IRI="#Java_Language"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Karel_the_Robot_Models"/>
+        <Class IRI="#Mental_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Keyboard_Input_Models"/>
+        <Class IRI="#Input_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Language_Syntax_Models"/>
+        <Class IRI="#Software_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Language_Type_Models"/>
+        <Class IRI="#Software_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Local_Variable_Types"/>
+        <Class IRI="#Data_Types"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Logical_Expressions"/>
+        <Class IRI="#Expressions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Loop_Structure"/>
+        <Class IRI="#Control_Structure_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Member_Access_Expressions"/>
+        <Class IRI="#Expressions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Method_Identifiers"/>
+        <Class IRI="#Identifiers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Method_Invocation_Models"/>
+        <Class IRI="#Object_Orientated_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Module_Level_Types"/>
+        <Class IRI="#Data_Types"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Multi_Dimensional_Arrays"/>
+        <Class IRI="#Arrays"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nesting"/>
+        <Class IRI="#Language_Syntax_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Object_Method_Contracts"/>
+        <Class IRI="#Object_Orientated_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Object_Orientated_Models"/>
+        <Class IRI="#Mental_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Objects_as_Variables_Models"/>
+        <Class IRI="#Object_Orientated_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#One_Dimensional_Arrays"/>
+        <Class IRI="#Arrays"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Operator_Precedence_Models"/>
+        <Class IRI="#Language_Syntax_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Output_Models"/>
+        <Class IRI="#Mental_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parenthesised_Expressions"/>
+        <Class IRI="#Expressions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pointer_Types"/>
+        <Class IRI="#Data_Types"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostFix_PreFix_Expressions"/>
+        <Class IRI="#Expressions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Precedence_Rule_Expressions"/>
+        <Class IRI="#Expressions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primitive_Types"/>
+        <Class IRI="#Data_Types"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Printing_Command_Models"/>
+        <Class IRI="#Output_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Private_Models"/>
+        <Class IRI="#Data_Hiding_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Procedural_Programming_Models"/>
+        <Class IRI="#Software_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Program_Exceptions"/>
+        <Class IRI="#Procedural_Programming_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Program_State_Models"/>
+        <Class IRI="#Procedural_Programming_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Program_Statements_as_Commands_Models"/>
+        <Class IRI="#Stored_Program_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Programming_as_a_Process_Models"/>
+        <Class IRI="#Stored_Program_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Public_Models"/>
+        <Class IRI="#Data_Hiding_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quality_Models"/>
+        <Class IRI="#Software_Engineering_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Recursion_Models"/>
+        <Class IRI="#Procedural_Programming_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reference_Models"/>
+        <Class IRI="#Object_Orientated_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reference_Types"/>
+        <Class IRI="#Data_Types"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Relational_Expressions"/>
+        <Class IRI="#Expressions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Return_Statements"/>
+        <Class IRI="#Statements"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Searching_Models"/>
+        <Class IRI="#Procedural_Programming_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Semi_Interpreted_Language_Models"/>
+        <Class IRI="#Execution_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Software_Engineering_Models"/>
+        <Class IRI="#Mental_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Software_Models"/>
+        <Class IRI="#Mental_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Software_Requirements_Models"/>
+        <Class IRI="#Software_Engineering_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sorting_Models"/>
+        <Class IRI="#Procedural_Programming_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Statements"/>
+        <Class IRI="#Control_Structures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stored_Program_Models"/>
+        <Class IRI="#Procedural_Programming_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#String_Expressions"/>
+        <Class IRI="#Expressions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Switch_Case_Structure"/>
+        <Class IRI="#Control_Structures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Testing_Model"/>
+        <Class IRI="#Mental_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Text_Identifiers"/>
+        <Class IRI="#Variable_Identifiers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Throwing_Program_Exceptions"/>
+        <Class IRI="#Program_Exceptions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Type_Conversion"/>
+        <Class IRI="#Data_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UniCode_Types"/>
+        <Class IRI="#Data_Types"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Variable_Identifiers"/>
+        <Class IRI="#Identifiers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Variable_Initialisation_Models"/>
+        <Class IRI="#Data_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Variable_Scope_Models"/>
+        <Class IRI="#Data_Models"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Void_Return_Types"/>
+        <Class IRI="#Data_Types"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#While_Loop_Structure"/>
+        <Class IRI="#Loop_Structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Window_GUI_Models"/>
+        <Class IRI="#Mental_Models"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Arithmetic_Expressions"/>
+        <Class IRI="#Array_Element_Access_Expressions"/>
+        <Class IRI="#Assignment_Expressions"/>
+        <Class IRI="#Conditional_Expressions"/>
+        <Class IRI="#Logical_Expressions"/>
+        <Class IRI="#Member_Access_Expressions"/>
+        <Class IRI="#Parenthesised_Expressions"/>
+        <Class IRI="#Precedence_Rule_Expressions"/>
+        <Class IRI="#Relational_Expressions"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Assignment_Statements"/>
+        <Class IRI="#Call_Statements"/>
+        <Class IRI="#Declaration_Statements"/>
+        <Class IRI="#Initialisation_Statements"/>
+        <Class IRI="#Return_Statements"/>
+    </DisjointClasses>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+
